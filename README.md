@@ -37,8 +37,8 @@ US Accident Dataset has a few variables which are categorical  mention about the
 * Weather_Condition - Shows the weather condition (rain, snow, thunderstorm, fog, etc.).
 # Data Understanding and Exploration:
 ## Data Understanding from above Graphs
-    1)Most of the US Accidents i.e 0.8 have the severity 2 and followed by severity 4.
-    <img src="https://github.com/Poornima764/KDD_Group8/blob/main/Images%20Folder/Severity%20Plot.PNG">
+* Most of the US Accidents i.e 0.8 have the severity 2 and followed by severity 4.
+  <img src="https://github.com/Poornima764/KDD_Group8/blob/main/Images%20Folder/Severity%20Plot.PNG"/>
     2)Major percentage of  the US Accidents  are occured at traffic signals, Crossing, Station, Stop and Amenity. The least percentage of  accidents are occured at Bump,           Roundabout, Railway, No-Exit, Junction
     3)Most percentage of accidents are occured in California followed by florida.
     4)Accidents are occurred in clear weather conditions(52.9%) and followed by cloudy weather 18.7% which means that weather       conditions effects very less.
