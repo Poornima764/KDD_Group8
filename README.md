@@ -75,25 +75,16 @@ The models are implemented on the preprocessed dataset include the following:
   * Precision Recall
   * Cross Validation Score
 # Conclusion:
-1) What was unique about the data?  Did you have to deal with imbalance? What data cleaning did you do? Outlier treatment?  Imputation?
-2) Did you create any new additional features / variables?
-3) What was the process you used for evaluation? What was the best result?
-    Process used for evaluation includes modeling using logistic regression K- nearest neighbours classification and decision tree classification.  Best results belong to decision tree classification 
-4) What were the problems you faced? How did you solve them?
-    Problems faced included some data not being in a good form for modeling and we needed to delete some of the data in order to create the models properly
-5) What future work would you like to do? 
+1) The data is about accidents in USA which took place in Dec 2020.There was some imbalance in the dataset. We decided to clean the data set by dropping some columns and we tried to encode the strings into integers.
+2) We did not create any additional features or variables. However we did perform some exploratory data analysis to find more details about the data.
+3) Process used for evaluation includes modeling using logistic regression K- nearest neighbours classification and decision tree classification.  Best results belong to decision tree classification 
+4) Problems faced included some data not being in a good form for modeling and we needed to delete some of the data in order to create the models properly
+5) future work:
     * Analyze year-on-year trends of accidents.
     * Explore per-capita accident figures by adding a state and city-wise population data set.
     * The question of missing data in certain months could be analyzed if there is some data available on the source/s of this one.
 6) Instructions for individuals that may want to use your work?
     
-# Research Questions:
-1. Research on how weather condition  impacts on the accident occurence and time affect visibility which results in the number of accidents?
-2. Is the accident rates in different states higher due to different Weather Condition?
-3. How wind speed and wind direction contribute to accidents?
-4. What are the most accident prone states in USA?
-5. Number of accidents of a state as compared to its adjacent states?
-6. Factors that effect accident severity.
 # Future Work:
 * Analyze year-on-year trends of accidents.
 * Explore per-capita accident figures by adding a state and city-wise population data set.
