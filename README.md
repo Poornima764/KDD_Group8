@@ -35,6 +35,12 @@ US Accident Dataset has a few variables which are categorical  mention about the
 * Wind_Speed(mph) - Shows wind speed (in miles per hour).
 * Precipitation(in) - Shows precipitation amount in inches, if there is any.
 * Weather_Condition - Shows the weather condition (rain, snow, thunderstorm, fog, etc.).
+
+# Data Pre-Processing:
+In the Data Preprocessing step, data cleaning is done by handling missing data in rows and columns. we handled the missing data by dropping it.
+The feature Country has only one entry i.e USA, it is obvious since we are dealing with the USA’s dataset. so we will be deleting the feature Country.
+The feature Turning_Loop has only one value — False. the feature actually means that no accidents were occured in the turning loops
+
 # Data Understanding and Exploratory Data Analysis:
 ## Data Understanding from above Graphs
 * Most of the US Accidents i.e 0.8 have the severity 2 and followed by severity 4.
@@ -54,11 +60,38 @@ US Accident Dataset has a few variables which are categorical  mention about the
   <img src="https://github.com/Poornima764/KDD_Group8/blob/main/Images%20Folder/California%20Aciidents.png"/>
 * Accident Prone states in USA 
   <img src="https://github.com/Poornima764/KDD_Group8/blob/main/Images%20Folder/newplot.png"/>
+  
+# Data Preparation for Modelling:
+We have splitted the data based on the Severity feature of the dataset. we have trained and tested the data after splitting the dataset.
+
+# Data Modelling:
+The models are implemented on the preprocessed dataset include the following:
+  * K-Nearest Neighbour
+  * Logistic Regression
+  * Decision Tree
+ 
+#  Evaluation Methods:
+  * Accuracy Score
+  * Precision Recall
+  * Cross Validation Score
+# Conclusion:
+1) What was unique about the data?  Did you have to deal with imbalance? What data cleaning did you do? Outlier treatment?  Imputation?
+2) Did you create any new additional features / variables?
+3) What was the process you used for evaluation? What was the best result?
+    Process used for evaluation includes modeling using logistic regression K- nearest neighbours classification and decision tree classification.  Best results belong to decision tree classification 
+4) What were the problems you faced? How did you solve them?
+    Problems faced included some data not being in a good form for modeling and we needed to delete some of the data in order to create the models properly
+5) What future work would you like to do? 
+    * Analyze year-on-year trends of accidents.
+    * Explore per-capita accident figures by adding a state and city-wise population data set.
+    * The question of missing data in certain months could be analyzed if there is some data available on the source/s of this one.
+6) Instructions for individuals that may want to use your work?
+    
 # Research Questions:
 1. Research on how weather condition  impacts on the accident occurence and time affect visibility which results in the number of accidents?
 2. Is the accident rates in different states higher due to different Weather Condition?
-3. how wind speed and wind direction contribute to accidents?
-4. What are the most accident prone areas in each state?
+3. How wind speed and wind direction contribute to accidents?
+4. What are the most accident prone states in USA?
 5. Number of accidents of a state as compared to its adjacent states?
 6. Factors that effect accident severity.
 # Future Work:
