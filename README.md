@@ -35,7 +35,7 @@ US Accident Dataset has a few variables which are categorical  mention about the
 * Wind_Speed(mph) - Shows wind speed (in miles per hour).
 * Precipitation(in) - Shows precipitation amount in inches, if there is any.
 * Weather_Condition - Shows the weather condition (rain, snow, thunderstorm, fog, etc.).
-# Data Understanding and Exploration:
+# Data Understanding and Exploratory Data Analysis:
 ## Data Understanding from above Graphs
 * Most of the US Accidents i.e 0.8 have the severity 2 and followed by severity 4.
   <img src="https://github.com/Poornima764/KDD_Group8/blob/main/Images%20Folder/Severity%20Plot.PNG"/>
@@ -62,5 +62,6 @@ US Accident Dataset has a few variables which are categorical  mention about the
 5. Number of accidents of a state as compared to its adjacent states?
 6. Factors that effect accident severity.
 # Future Work:
-We have analysed regarding the most accident prone states and predicted how climatic conditions are impacting the road accidents so that we can reduce the severity in advance. 
-In Future Work we continue to work on how much percent of accidents takes place at different spots and particular climatic conditions impact on road accidents
+* Analyze year-on-year trends of accidents.
+* Explore per-capita accident figures by adding a state and city-wise population data set.
+* The question of missing data in certain months could be analyzed if there is some data available on the source/s of this one.
