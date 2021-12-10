@@ -93,6 +93,8 @@ The models are implemented on the preprocessed dataset include the following:
     * Download US_Accidents_Dec20.csv file at https://www.kaggle.com/sobhanmoosavi/us-accidents
     * Execute US_Accidents_KDD_Group8.ipynb file using Jupyter or Jupyter Lab application
     * More charts can be added for visual analytics with different tools such as Altair or Streamlit 
+# Video Presentation Link
+<img src="https://drive.google.com/file/d/1UCSmBGIcigBnU3ICXVcRAjqM2aL4PK0p/view?usp=sharing"/>
 
 # Future Works:
 * Analyze year-on-year trends of accidents.
