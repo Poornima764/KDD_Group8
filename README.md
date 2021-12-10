@@ -84,7 +84,9 @@ The models are implemented on the preprocessed dataset include the following:
     * Explore per-capita accident figures by adding a state and city-wise population data set.
     * The question of missing data in certain months could be analyzed if there is some data available on the source/s of this one.
 6) Instructions for individuals that may want to use your work?
-    
+    * Download US_Accidents_Dec20.csv file at https://www.kaggle.com/sobhanmoosavi/us-accidents
+    * Execute US_Accidents_KDD_Group8.ipynb file using Jupyter or Jupyter Lab application
+    * More charts can be added for visual analytics with different tools such as Altair or Streamlit 
 # Future Work:
 * Analyze year-on-year trends of accidents.
 * Explore per-capita accident figures by adding a state and city-wise population data set.
