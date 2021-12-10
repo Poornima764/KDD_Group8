@@ -76,8 +76,9 @@ The models are implemented on the preprocessed dataset include the following:
   * Cross Validation Score
 
 #  Result:
-The dataset shows that the numbers of accidents differ widely among the 49. A state's population has an obvious effect on the numbers. However, many other factors can also affect these rates, including types of vehicles driven, travel speeds, rates of licensure, state traffic laws, emergency care capabilities, etc. 
-Generally, major percentage of the US Accidents were occurred at traffic signals, crossing, station, stop and amenity. Weather doesn’t seem to have big impact on numbers of accidents since more than half happened in fair condition. There are more accidents happened during weekdays compares to weekend days as people have to get on the roads to work. From the data, we found California is the state with highest number of accidents follows closely by Florida. Los Angeles county contributed the largest number of accidents in California, more than 3 times the number of accidents in Kern, the second most accidents in this state.
+  * The dataset shows that the numbers of accidents differ widely among the 49. A state's population has an obvious effect on the numbers. However, many other factors can also affect these rates, including types of vehicles driven, travel speeds, rates of licensure, state traffic laws, emergency care capabilities, etc. 
+  * Generally, major percentage of the US Accidents were occurred at traffic signals, crossing, station, stop and amenity. Weather doesn’t seem to have big impact on numbers of accidents since more than half happened in fair condition. There are more accidents happened during weekdays compares to weekend days as people have to get on the roads to work.
+  * We found California is the state with highest number of accidents follows closely by Florida. Los Angeles county contributed the largest number of accidents in California, more than 3 times the number of accidents in Kern, the second most accidents in this state.
 
 # Conclusion:
 1) The data is about accidents in USA which took place in Dec 2020.There was some imbalance in the dataset. We decided to clean the data set by dropping some columns and we tried to encode the strings into integers.
@@ -88,7 +89,7 @@ Generally, major percentage of the US Accidents were occurred at traffic signals
     * Analyze year-on-year trends of accidents.
     * Explore per-capita accident figures by adding a state and city-wise population data set.
     * The question of missing data in certain months could be analyzed if there is some data available on the source/s of this one.
-6) Instructions for individuals that may want to use your work?
+6) Instructions for individuals that may want to use this analysis:
     * Download US_Accidents_Dec20.csv file at https://www.kaggle.com/sobhanmoosavi/us-accidents
     * Execute US_Accidents_KDD_Group8.ipynb file using Jupyter or Jupyter Lab application
     * More charts can be added for visual analytics with different tools such as Altair or Streamlit 
